@@ -1,0 +1,126 @@
+@media only screen and (min-width: 921px) {
+    .vence_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* position: relative; */
+    }
+
+    .vence_left_container {
+        text-align: center;
+        flex: 1;
+    }
+
+    .vence_left_container img {
+        width: 70%;
+        border-radius: 10px;
+    }
+
+    .vence_right_container {
+        flex: 1;
+        text-align: left;
+
+    }
+
+    .vence_right_container h1 {
+        font-size: 2.5rem;
+        color: white;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .vence_right_container p {
+        color: white;
+        font-size: 1.2rem;
+        padding-top: 20px;
+
+    }
+
+    .vence_right_container button {
+        margin-top: 70px;
+        background-color: #CC9D2F;
+        padding: 10px 20px;
+        color: #5B0017;
+        position: relative;
+
+    }
+
+    .vence_right_container button::after {
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        top: 2px;
+        right: 2px;
+        border: 1px solid #CC9D2F;
+    }
+
+    .vence_right_container button::before {
+        position: absolute;
+        content: "";
+        width: 300px;
+        height: 2px;
+        background-color: #CC9D2F;
+        top: 100px;
+        left: -10px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+
+    .vence_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .vence_left_container {
+        text-align: center;
+    }
+
+    .vence_left_container img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .vence_right_container {
+        padding-top: 70px;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+
+    .vence_right_container h1 {
+        padding: 0px 7px;
+        font-size: 1.4rem;
+        color: white;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .vence_right_container p {
+        color: white;
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+
+    .vence_right_container button {
+        margin-top: 70px;
+        background-color: #CC9D2F;
+        padding: 10px 20px;
+        color: #5B0017;
+        position: relative;
+
+    }
+
+    .vence_right_container button::after {
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        top: 2px;
+        right: 2px;
+        border: 1px solid #CC9D2F;
+    }
+
+
+}

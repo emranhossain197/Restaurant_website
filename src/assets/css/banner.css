@@ -1,0 +1,126 @@
+@media only screen and (min-width: 921px) {
+    .banner-container {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        padding: 0px 50px;
+    }
+
+    .banner-left-container {
+        flex: 1;
+    }
+
+    .banner-right-container {
+        flex: 1;
+    }
+
+    .banner-right-container img.banner-image {
+        width: 100%;
+        position: relative;
+
+    }
+
+    img.victor_image {
+        position: absolute;
+        top: 150px;
+        right: 17px;
+        z-index: 5;
+    }
+
+    .banner-left-container h1 {
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        color: rgb(255, 255, 255);
+        font-size: 4rem;
+        margin-right: -50px;
+        letter-spacing: 5px;
+        z-index: 2;
+        background-color: #5b001788;
+        font-family: 'Barlow', sans-serif;
+
+    }
+
+    .banner-left-container p {
+        padding-top: 40%;
+        padding-left: 10px;
+        color: #FFFFFF;
+        font-size: 1.2rem;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .banner-left-container button {
+        background-color: #5B0017;
+        padding: 10px 20px;
+        border: 1.5px solid #CC9D2F;
+        color: #CC9D2F;
+        margin: 40px 0px 30px 10px;
+    }
+
+    .banner-left-container img {
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 920px) {
+    .banner-container {
+        width: 100%;
+        padding: 0px 50px;
+    }
+
+    .banner-left-container {
+        text-align: center;
+    }
+
+    .banner-right-container {
+        text-align: center;
+    }
+
+    .banner-right-container img.banner-image {
+        width: 70%;
+    }
+
+    img.victor_image {
+        position: absolute;
+        top: 150px;
+        right: 17px;
+        z-index: 5;
+    }
+
+    .banner-left-container h1 {
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .banner-left-container p {
+        padding-left: 10px;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 1.2rem;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .banner-left-container button {
+        text-align: center;
+        background-color: #5B0017;
+        padding: 10px 20px;
+        border: 1.5px solid #CC9D2F;
+        color: #CC9D2F;
+        margin: 20px 0px 30px 10px;
+    }
+
+    .banner-left-container img {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        width: 70px;
+        height: 70px;
+    }
+}
